@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    z-index: 1;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 500px;
+}
+
+.navbar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: xx-large;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    position: fixed;
+}
+
+
+.background {
+    z-index: -1;
+    width: 100%;
+    margin-top: -100px;
+    position: absolute;
+}
+
+.my-feature {
+    font-family: 'Times New Roman', Times;
+    font-weight: lighter;
+    z-index: 1;
+    height: 4em;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 11em;
+    margin: 90px;
+}
+
+.show-tile {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.show-header {
+    background-color: rgba(235, 235, 235, 0.514);
+    border: 1px solid gray;
+    width: 1150px;
+    display: flex;
+    position: static;
+    justify-content: left;
+    padding-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    align-items: center;
+    margin: auto;
+    height: 40px;
+}
+
+.show-wrapper-1 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+    align-content: center;
+}
+
+.show-wrapper-2 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+    align-content: center;
+}
+
+.show-wrapper-3 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+    align-content: center;
+}
+
+.show-wrapper-4 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+    align-content: center;
+}
+
+.teacher {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h3 {
+font-family: 'Times New Roman', Times, serif;
+font-weight: 400;
+font-size: xx-large;
+}
+
+.details {
+    margin-left: 50px;
+    width: 700px;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 0.4;
+    padding-left: 50px;
+}
+
+button {
+    width: 210px;
+    height: 70px;
+    border: 1.5px solid grey;
+    border-radius: 0%;
+    background-color: orange;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-top: 100px;
+    margin-right: -180px;   
+}
+
+hr {
+    margin-top: 30px;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%; 
+    padding-left: 100px;
+}
+
+.map-img {
+    width: 250px;
+}
+
+.foot-info {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    line-height: 2;
+}
+
+.foot-shows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    line-height: 2;
+}
+
+.foot-socials {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    line-height: 2;
+}
+
+.foot-head {
+    font-size: 2em;
+
+}
+
+.tiny {
+    margin: 3px;
+}
